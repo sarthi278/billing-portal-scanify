@@ -28,10 +28,10 @@ const productData = [
 ];
 
 const recentInvoices = [
-  { id: "#INV-001", customer: "John Doe", amount: 350.99, status: "Paid", date: "May 15, 2023" },
-  { id: "#INV-002", customer: "Alice Smith", amount: 120.50, status: "Pending", date: "May 14, 2023" },
-  { id: "#INV-003", customer: "Bob Johnson", amount: 550.00, status: "Paid", date: "May 13, 2023" },
-  { id: "#INV-004", customer: "Emma Davis", amount: 220.75, status: "Overdue", date: "May 10, 2023" },
+  { id: "#INV-001", customer: "Anubhav Yadav", amount: 350.99, status: "Paid", date: "May 15, 2025" },
+  { id: "#INV-002", customer: "Anurag Yadav", amount: 120.50, status: "Pending", date: "May 14, 2025" },
+  { id: "#INV-003", customer: "Manish Singh ", amount: 550.00, status: "Paid", date: "May 13, 2025" },
+  { id: "#INV-004", customer: "Krishna Singh ", amount: 220.75, status: "Overdue", date: "May 10, 2025" },
 ];
 
 export default function Dashboard() {
@@ -51,7 +51,7 @@ export default function Dashboard() {
           {[
             {
               title: "Total Revenue",
-              value: "$12,543.00",
+              value: "₹12,543.00",
               change: "+12.5%",
               icon: <DollarSign className="h-5 w-5 text-primary" />,
               description: "Revenue this month",
