@@ -51,7 +51,7 @@ export default function Index() {
         await login("user@scanify.com", "password");
       }
       toast({
-        title: "Demo login successful",
+        title: " login successful",
         description: `You're now logged in as a ${role}.`,
         duration: 3000,
       });
@@ -77,17 +77,17 @@ export default function Index() {
             <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center text-primary font-bold text-2xl">
               S
             </div>
-            <h1 className="text-3xl font-bold">Scanify</h1>
+            <h1 className="text-3xl font-bold">Ayodhya SHG</h1>
           </div>
           
           <h2 className="text-4xl lg:text-5xl font-bold mb-6 tracking-tight leading-tight">
-            The Modern Billing Solution <br />with Integrated Scanning
+            Ayodhya's Own Identity
           </h2>
           
-          <p className="text-lg mb-8 opacity-90 leading-relaxed">
+{/*           <p className="text-lg mb-8 opacity-90 leading-relaxed">
             Streamline your billing process with our intuitive platform. Manage invoices, scan barcodes, and track payments - all in one place.
           </p>
-          
+           */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             {[
               {
@@ -170,7 +170,7 @@ export default function Index() {
                 </div>
                 <div className="relative flex justify-center text-xs uppercase">
                   <span className="bg-card px-2 text-muted-foreground">
-                    Or try a demo account
+                    
                   </span>
                 </div>
               </div>
@@ -182,7 +182,7 @@ export default function Index() {
                   disabled={isLoading}
                   className="w-full"
                 >
-                  Admin Demo
+                  Admin Login 
                 </Button>
                 <Button
                   variant="outline"
@@ -190,7 +190,7 @@ export default function Index() {
                   disabled={isLoading}
                   className="w-full"
                 >
-                  User Demo
+                  User Login 
                 </Button>
               </div>
             </div>
