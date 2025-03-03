@@ -26,7 +26,7 @@ export default function Index() {
       await login(email, password);
       toast({
         title: "Login successful",
-        description: "Welcome to Scanify Billing Portal!",
+        description: "Welcome to Ayodhya SHG Management Inventory!",
         duration: 3000,
       });
       navigate("/dashboard");
