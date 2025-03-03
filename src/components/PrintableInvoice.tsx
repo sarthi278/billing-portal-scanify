@@ -226,12 +226,12 @@ const PrintableInvoice: React.FC<PrintableInvoiceProps | BarcodeScannerInvoicePr
               <p className="text-gray-500 text-sm mt-1">#{invoice.id}</p>
             </div>
             <div className="text-right">
-              <div className="font-semibold">Your Company Name</div>
+              <div className="font-semibold">Ayodhya SHG</div>
               <div className="text-sm text-gray-500">
-                123 Business Street<br />
-                City, State 12345<br />
-                support@yourcompany.com<br />
-                (123) 456-7890
+               Maharishi Valmiki Airport<br />
+                Ayodhya Uttar Pradesh<br />
+                ayodhyashgs@gmail.com<br />
+                (+91) 987654321
               </div>
             </div>
           </div>
@@ -305,10 +305,10 @@ const PrintableInvoice: React.FC<PrintableInvoiceProps | BarcodeScannerInvoicePr
                 <span className="text-gray-600">Subtotal:</span>
                 <span>{currencySymbol}{calculateSubtotal().toFixed(2)}</span>
               </div>
-              <div className="flex justify-between py-2">
+{/*               <div className="flex justify-between py-2">
                 <span className="text-gray-600">Tax (10%):</span>
                 <span>{currencySymbol}{calculateTax().toFixed(2)}</span>
-              </div>
+              </div> */}
               <div className="flex justify-between py-3 font-bold border-t border-gray-200 mt-2">
                 <span>Total:</span>
                 <span>{currencySymbol}{calculateTotal().toFixed(2)}</span>
