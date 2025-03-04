@@ -71,11 +71,11 @@ export function AppSidebar() {
       url: "/reports",
       icon: BarChart,
     },
-    {
-      title: "Settings",
-      url: "/settings",
-      icon: Settings,
-    },
+    // {
+    //   title: "Settings",
+    //   url: "/settings",
+    //   icon: Settings,
+    // },
   ];
 
   const adminItems = [
@@ -93,7 +93,7 @@ export function AppSidebar() {
           <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold text-xl">
             S
           </div>
-          <span className="text-xl font-semibold">Scanify</span>
+          <span className="text-xl font-semibold">Ayodhya SHG</span>
         </div>
       </SidebarHeader>
       <SidebarContent>
