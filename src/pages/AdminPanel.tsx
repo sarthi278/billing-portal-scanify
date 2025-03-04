@@ -19,9 +19,9 @@ import ProductManagement from "@/components/admin/ProductManagement";
 const mockUsers = [
   { id: "1", name: "Admin User", email: "admin@scanify.com", role: "admin", status: "active", lastLogin: "Today, 10:30 AM" },
   { id: "2", name: "Regular User", email: "user@scanify.com", role: "user", status: "active", lastLogin: "Yesterday, 2:15 PM" },
-  { id: "3", name: "John Smith", email: "john@example.com", role: "user", status: "inactive", lastLogin: "1 week ago" },
-  { id: "4", name: "Sarah Johnson", email: "sarah@example.com", role: "user", status: "active", lastLogin: "Yesterday, 9:45 AM" },
-  { id: "5", name: "Robert Davis", email: "robert@example.com", role: "user", status: "active", lastLogin: "3 days ago" },
+  { id: "3", name: "Anubhav Yadav", email: "anubhavyadav@gmail.com", role: "user", status: "inactive", lastLogin: "1 week ago" },
+  { id: "4", name: "AnuragYadav", email: "sarah@example.com", role: "user", status: "active", lastLogin: "Yesterday, 9:45 AM" },
+  { id: "5", name: "Manish Singh", email: "robert@example.com", role: "user", status: "active", lastLogin: "3 days ago" },
 ];
 
 // Mock system settings
