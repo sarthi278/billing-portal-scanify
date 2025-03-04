@@ -22,8 +22,8 @@ interface AuthContextType {
 
 const defaultUser: AuthUser = {
   id: "1",
-  name: "Admin User",
-  email: "admin@scanify.com",
+  name: "Anubhav Yadav",
+  email: "Anubhavyadav@gmail.com",
   role: "admin",
   avatar: "https://ui-avatars.com/api/?name=Admin+User&background=0D8ABC&color=fff"
 };
